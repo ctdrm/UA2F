@@ -405,7 +405,7 @@ int main(int argc, char *argv[]) {
             UAstr++;
         }else{
             *UAstr = 'A';
-            Uastr++;
+            UAstr++;
         }
         
     }
