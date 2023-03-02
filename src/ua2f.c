@@ -394,7 +394,7 @@ int main(int argc, char *argv[]) {
     }
 
     UAstr = malloc(sizeof_buf);
-    memset(UAstr, 'C', sizeof_buf);
+    memset(UAstr, 'B', sizeof_buf);
 
     nlh = nfq_nlmsg_put(buf, NFQNL_MSG_CONFIG, queue_number);
     nfq_nlmsg_cfg_put_cmd(nlh, AF_INET, NFQNL_CFG_CMD_BIND);
